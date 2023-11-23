@@ -1,0 +1,139 @@
+
+/* information  div */
+.hero-container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    height: 100vh;
+    margin: 0 auto;
+  }
+  .hero-line {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 80px; 
+    max-width: 80rem; 
+
+  }
+  .line-circle-style {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.25rem; 
+  }
+  .circle-style {
+    width: 40px; 
+    height: 40px; 
+    border-radius: 50%;
+    background-color: #915eff;
+  }
+  
+  .line-style{
+    width: 10px;
+    height: 300px; 
+    background: linear-gradient(to bottom, #915eff, #5900a6); /* violet-gradient */
+  }
+  .hero-text{
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif ; 
+
+  }
+  .hero-text-span{
+    color: #915eff;
+    text-transform: capitalize;
+    text-shadow: 2px 2px 4px purple; /* Add a subtle text shadow */
+  }
+  
+
+  .contact-info {
+    margin-top: 2rem; 
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem; 
+    margin-top: 30px;
+    align-items: flex-start;
+  }
+  
+ 
+  .conatct-link {
+    width: 4rem; 
+    height: 4rem; 
+    border-radius: 50%; /* rounded-full */
+    background: linear-gradient(to bottom, #915eff, #5900a6);
+    transition: background-color 0.3s; /* Smooth color transition on hover */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .contact-resume {
+    padding: 0.5rem; 
+    border-radius: 0.25rem; 
+    padding:20px;
+    font-size: 24px;
+    margin-top: 15px;
+    border: none;
+    outline: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    background-color: rgb(14, 14, 26);
+    color: rgb(234, 234, 234);
+    font-weight: 700;
+    transition: 0.6s;
+    box-shadow: 0px 0px 60px #5900a6;
+    -webkit-box-reflect: below 10px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+  }
+  
+  .contact-resume:active {
+    scale: 0.92;
+  }
+  
+  .contact-resume:hover {
+    background: #5900a6;
+    background: linear-gradient(270deg, #915eff 0%,#5900a6 60%);
+    color: rgb(4, 4, 38);
+  }
+  /* image */
+
+  .hero-image {
+    width: 80%;
+    border: 8px solid #fff;
+    border-radius: 50%;
+    margin: 0 auto;
+
+  }
+  .hero-image:hover {
+    width: 90%; /* Change the width on hover to trigger the transition */
+}
+  
+  /* motion css */
+  .hero-motion-point{
+    width: 35px;
+    height: 64px;
+    border-radius: 1.125rem; 
+    border: 4px solid;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2px;
+  }
+  /* point */
+  .point {
+    width: 3px; 
+    height: 3px; 
+    border-radius: 50%; 
+    background-color: gray; 
+    margin-bottom: 0.25rem; 
+    padding: 0.5rem; 
+    text-transform: capitalize;
+    padding-left: 1rem;
+    transition: background-color 0.3s; 
+  }
+  
+ 

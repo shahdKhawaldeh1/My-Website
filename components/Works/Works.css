@@ -1,0 +1,71 @@
+.project-card {
+    padding: 10px;
+    border-radius: 10px; 
+    width: 100%; 
+  
+    @media (min-width: 640px) {
+      width: 360px;
+    }
+  }
+  .project-card-image {
+    position: relative;
+    width: 100%; 
+    height: 260px; 
+  }
+  .project-card-image img {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 10px; 
+  }
+  
+  .project-card-github {
+    position: absolute; 
+    top: 0;
+    bottom: 0;
+    left: 0; 
+    display: flex; 
+    margin: 10px;
+    background: linear-gradient(180deg, #000000 0%, #000000 100%);
+    width: 50px;
+    height: 50px; 
+    border-radius: 50%; 
+    cursor: pointer; 
+  }
+  
+  .project-card-heading {
+    color: white; 
+    font-weight: bold;
+    font-size: 24px; 
+  }
+  .project-card-description {
+    margin-top: 5px;
+    color: #888888;
+    font-size: 14px;
+  }
+  .project-card-tags {
+    margin-top: 10px; 
+    display: flex; 
+    gap: 0.5rem;
+    flex-wrap: wrap; 
+  }
+  .works-description {
+    margin-top: 10px; 
+    color: #d7d1d1; 
+    font-size: 25px; 
+    line-height: 40px; 
+  }
+  /* BUTTONS SKILLS */
+  .works-tabs {
+    margin-top: 30px; 
+    display: flex; 
+    gap: 15px; 
+    font-size: 25px;
+  }
+  .works-button {
+    background: linear-gradient(180deg, rgb(42, 1, 64) 0%, rgb(98, 20, 98) 100%); /* Equivalent to violet-gradient */
+    padding:10px; 
+    text-transform: capitalize; 
+    border-radius: 10px; 
+  }
+  
